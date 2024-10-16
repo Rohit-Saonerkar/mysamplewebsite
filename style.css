@@ -1,0 +1,75 @@
+style.css
+/* group selector
+/* h1,p,b{ */
+/* color:green;
+*/
+/* descendent selector =>it will apply property to child
+and grand child */
+/* div p{ */
+/*color:red;
+/* } */
+/* child selector =>only to child tag*/
+/*div~>p{*/
+/* color:red; */
+/* } */
+/* adjacent sibling */
+/* divtp{ */
+/* color:red;
+/* } */
+/* all sibling */
+/*div~<p{/*
+/*color:red; */
+/* div~p{*/
+     /* color red; */
+/*} */
+/* psuedo class selector:*/
+/* 1]hover 2]link 3]visited 4]active*/
+/* a:link{ */
+	/* color:green; */
+/* } */
+/* a:visited{ */
+	/* color:magenta; */
+/* } */
+/* a:hover{ */
+	/* color:blue; */
+/* } */
+/* a:active{ */
+/* color:yellow; */
+/* }	 */
+/* attribute selector */
+[type="text"]{
+	background-color:yellow
+	color:red;
+}
+/* attribute selector example 2*/
+/* [class *="test"]{ */
+/* color:blue;	 */
+/* } */
+/*color property:by name ,by hexadecimal
+RGB Red      Green      Blue
+    00toFF   00toFF     00toFF
+	By RGB(0 to 255,0 to 255,0 to 255 )*/
+   h1{
+	   /*
+   }
+ /* Text property   */
+ /* a{text-decoration:none;}    */
+ /* box_property */
+/* display property  */
+/* h1{ */
+	/* display:inline-block; */
+	/* height:500px; */
+	/* width:600px; */
+	/* border-style:solid */
+/* } */
+/* b{ */
+	/* display:block; */
+/* }	  */
+
+ text_shadow{
+	text-align:center;
+	padding-top;200px;
+	font-size:60px;
+	text-shadow:10px 10px 8px brown;
+}      	 
+ 
